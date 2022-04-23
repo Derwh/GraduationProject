@@ -15,12 +15,7 @@
           <li><a href="javascript:;">免费注册</a></li>
         </template>
         <li><a href="javascript:;">我的订单</a></li>
-        <li><a href="javascript:;">会员中心</a></li>
-        <li><a href="javascript:;">帮助中心</a></li>
-        <li><a href="javascript:;">关于我们</a></li>
-        <li>
-          <a href="javascript:;"><i class="iconfont icon-phone"></i>手机版</a>
-        </li>
+        <li><a href="javascript:;">会员中心</a></li>     
       </ul>
     </div>
   </nav>
@@ -45,7 +40,7 @@ export default {
 </script>
 <style scoped lang="less">
 .app-topnav {
-  background: #333;
+  background: rgb(170, 112, 45);
   ul {
     display: flex;
     height: 53px;
@@ -68,7 +63,7 @@ export default {
       // ~ 选择器的作用是选中当前标签的所有兄弟标签
       ~ li {
         a {
-          border-left: 2px solid #666;
+          border-left: 2px solid rgb(170, 106, 106);
         }
       }
     }

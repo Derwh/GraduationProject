@@ -28,7 +28,7 @@
           </li>
         </ul>
         <div v-else class="skeleton">
-          <XtxSkeleton
+          <Skeleton
             class="item"
             v-for="i in 5"
             :key="i"
